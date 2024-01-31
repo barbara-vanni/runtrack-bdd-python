@@ -90,7 +90,7 @@ class Zoo:
         print(f'Superficie totale de toutes les cages : {superficie_totale} m²')
 
 try:
-    zoo_animal = Zoo("localhost", "root", "Vcassis13*", "zoo")
+    zoo_animal = Zoo("localhost", "root", "", "zoo")
 
     # zoo_animal.add_animal('Guépard', 'Félin', 2, '2013-10-27', 'Afrique')
     # zoo_animal.add_cage(1, 100, 1)

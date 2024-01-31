@@ -4,7 +4,7 @@ import mysql.connector
 # db = mysql.connector.connect(
 #     host="localhost",
 #     user="root",
-#     password="Vcassis13*",
+#     password="",
 #     database="entreprise"
 # )
 
@@ -93,7 +93,7 @@ class Employe:
 
 
 
-employe_instance = Employe("localhost", "root", "Vcassis13*", "entreprise")
+employe_instance = Employe("localhost", "root", "", "entreprise")
 
 
 employe_instance.create_employe("New", "New", 2500.50, 2)
